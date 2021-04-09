@@ -1,7 +1,7 @@
 from socket import *
 import time
 
-serverName = '192.168.2.3' # 서버 주소
+serverName = '192.168.xxx.xxx' # 서버 주소
 serverPort = 12000 # 서버에 지정된 서버 포트
 clientSocket = socket(AF_INET, SOCK_DGRAM) # IPv4를 사용하여 udp소켓을 지정함
 clientSocket.settimeout(1) # 소켓의 제한시간을 설정
